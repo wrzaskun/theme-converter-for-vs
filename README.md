@@ -92,3 +92,9 @@ trademarks or logos is subject to and must follow
 [Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general).
 Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
 Any use of third-party trademarks or logos are subject to those third-party's policies.
+
+# Installation problems, how to fix
+In Visual studio install any free theme. Tools->Theme->Get more... (it is needed to extension works)
+After that in "c:\Users\<username>\AppData\Local\Microsoft\VisualStudio\17.<or_similar>\Extensions\(weird hash shortcuts)" 
+you will find this theme, then override it by your theme (copy your *.pkgdef file and change in all files *.json and *.vsixmanifest XML the titles and paths to your file. After restarting VS you will see in Tools->Theme-> your Theme.
+Not all collors works as in Visual Studio Code
